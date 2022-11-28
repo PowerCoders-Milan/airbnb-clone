@@ -32,6 +32,14 @@ Define the roles of the team:
 
 Define the **main features** of the MVP through *User Stories*.
 
+User stories:
+- [ ] A user can see all flats
+- [ ] A user (owner) can post a flat
+- [ ] A user can book a flat
+- [ ] A user (owner) can see all bookings
+
+While you brainstorm them, add them in this [spreadsheet](https://docs.google.com/spreadsheets/d/1ZNoi2V8uFD_LU0BCaTMZ6tTHmiF45AOOfwYZfkYLSoQ/edit?usp=sharing)
+
 Once you defined them ask a teacher to review them together.
 
 ## Step 2: Figma - all together
@@ -50,6 +58,8 @@ Once you are done ask a teacher to review it together.
 
 Create the Trello board with the user stories, the tasks and the roles of the team.
 
+You can start by using this [template](https://trello.com/b/5kjBfYGZ)
+
 Once you are done ask a teacher to review it together.
 
 Every day you will have to review the tasks and add/modify tasks.
@@ -58,11 +68,20 @@ Every day you will have to review the tasks and add/modify tasks.
 
 One person needs to create the Airbnb-clone App with the command:
 
-`yarn create next-app -e https://github.com/PowerCoders-Milan/airbnb-clone`
+```bash
+cd ~/code/YOUR_GITHUB_USERNAME
+yarn create next-app -e https://github.com/PowerCoders-Milan/airbnb-clone airbnb-clone
+cd airbnb-clone
+```
 
 Add the *link to the trello* board in the **Readme** and the *DB schema* in the **database folder**.
 
 Then push it to Github and add all the team-members as collaborators of the project.
+
+```bash
+gh repo create --public --push --source=. # will create a public repo on GitHub
+```
+
 
 ## Step 6
 
